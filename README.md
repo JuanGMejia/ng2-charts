@@ -5,10 +5,11 @@ Beautiful charts for Angular2 based on Chart.js
 [![NPM](https://nodei.co/npm/ng2-charts.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.org/ng2-charts)
 [![NPM](https://nodei.co/npm-dl/ng2-charts.png?height=3&months=9)](https://npmjs.org/ng2-charts)
 
+This is a fork of ng2-charts from valor-software that fixes some bugs which were not addressed in the original for a long time and this package will be used for Apollo-rocket.
 
 # Usage & Demo
 
-Sample in below website uses ng2-charts@1.1.0
+Sample in below website uses ng2-charts-apollo@1.1.0
 
 [http://valor-software.github.io/ng2-charts/](http://valor-software.github.io/ng2-charts/)
 [http://plnkr.co/edit/7fGsiuRjcF0M0Ffeoml2?p=preview](http://plnkr.co/edit/7fGsiuRjcF0M0Ffeoml2?p=preview)
@@ -18,10 +19,10 @@ Sample in below website uses ng2-charts@1.1.0
 
 ### Installation
 
-1. You can install ***ng2-charts*** using npm
+1. You can install ***ng2-charts-apollo*** using npm
 
   ```bash
-  npm install ng2-charts --save
+  npm install ng2-charts-apollo --save
   ```
 2. You need to install and include `Chart.js` library in application via `html` or `webpack bundler` (more options can be found in official `chart.js` [documentation](http://www.chartjs.org/docs/#getting-started))
 
@@ -35,19 +36,15 @@ Sample in below website uses ng2-charts@1.1.0
   <script src="node_modules/chart.js/src/chart.js"></script>
   ```
 ### Usage & Demo
- Demo and API details of ***ng2-charts*** can be found here:
+ Demo and API details of ***ng2-charts-apollo*** can be found here:
   [demo](http://valor-software.github.io/ng2-charts/) and [source code](https://github.com/valor-software/ng2-charts/tree/master/demo).
-
-### System.js
-
-System.js bundles can be found in `bundles` directory of npm package or at [npm cdn](https://npmcdn.com/ng2-charts/bundles/)
 
 
 ## API
 
 ### Import
 ```typescript
-import { ChartsModule } from 'ng2-charts/ng2-charts';
+import { ChartsModule } from 'ng2-charts-apollo/ng2-charts-apollo';
 
 // In your App's module:
 imports: [
