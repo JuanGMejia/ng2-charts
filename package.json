@@ -1,7 +1,7 @@
 {
   "name": "ng2-charts-apollo",
-  "version": "1.6.0",
-  "private": true,
+  "version": "1.6.1",
+  "private": false,
   "description": "Reactive, responsive, beautiful charts for Angular2 based on Chart.js",
   "scripts": {
     "lite-server": "lite-server -c demo/bs-config.json",
