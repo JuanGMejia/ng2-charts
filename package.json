@@ -1,6 +1,6 @@
 {
-  "name": "ng2-charts-apollo",
-  "version": "1.6.1",
+  "name": "@apollo-rocket/ng2-charts-apollo",
+  "version": "1.8.1",
   "private": false,
   "description": "Reactive, responsive, beautiful charts for Angular2 based on Chart.js",
   "scripts": {

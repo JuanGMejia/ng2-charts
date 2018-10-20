@@ -1,5 +1,5 @@
 {
-  "name": "ng2-charts",
+  "name": "@apollo-rocket/ng2-charts-apollo",
   "dependencies": {
     "chart.js": "*"
   },
